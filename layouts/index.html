@@ -5,8 +5,12 @@
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
         <h1>{{ .Site.Title }}</h1>
         <h2>{{ markdownify .Site.Params.Description }}</h2>
+        {{ range sort .Site.Menus.icon }}
+            <li class="navbar-icon-index"><a href="{{ .URL }}"><i class="fa fa-{{ .Name }}"></i></a></li>
+        {{ end }}
         {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
     </div>
+    
 </main>
 
 {{ partial "footer" . }}

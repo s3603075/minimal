@@ -36,6 +36,7 @@ img {
     font-size: 3vmin;
 }
 
+
 /* Page content */
 
 .content {
@@ -95,6 +96,12 @@ a:hover {
 .navbar-icon {
     font-size: 125%;
     display: inline-block !important;
+}
+
+.navbar-icon-index  {
+    font-size: 125%;
+    display: inline-block !important;
+    padding: 10px;
 }
 
 /* Colored borders at top/bottom of page */
