@@ -87,8 +87,16 @@ a:hover {
     padding: 10px 0;
 }
 
+   
 .item-tag {
-    background-color: var(--accent);
+    padding:2px 4px;
+    font-size:110%;
+    border-width: 1px;
+    background-color: #ffffff;
+    border-style: solid;
+    font-family: inherit;
+    color: red;
+    padding-right: 6px;
 }
 
 /* Navigation icons */
